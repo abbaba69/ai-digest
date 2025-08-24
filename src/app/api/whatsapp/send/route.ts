@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supaAdmin } from '../../../../lib/db';
-import { yesterdayRange, toYYYYMMDD } from '../../../../lib/time';
+import { supaAdmin } from '../../../../../lib/db';
+import { yesterdayRange, toYYYYMMDD } from '../../../../../lib/time';
 import { DateTime } from 'luxon';
 
 async function fetchDigestText() {
