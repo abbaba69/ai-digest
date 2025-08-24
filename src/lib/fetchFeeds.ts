@@ -1,7 +1,7 @@
 import Parser from 'rss-parser';
 import { DateTime } from 'luxon';
-import { tz, yesterdayRange, toYYYYMMDD } from '@/lib/time';
-import { supaAdmin } from '@/lib/db';
+import { tz, yesterdayRange, toYYYYMMDD } from './time';
+import { supaAdmin } from './db';
 
 const MAX_PER_SOURCE = 10;
 
