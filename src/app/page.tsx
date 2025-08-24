@@ -1,5 +1,5 @@
-import { supaAdmin } from '@/lib/db';
-import { yesterdayRange, toYYYYMMDD } from '@/lib/time';
+import { supaAdmin } from '../lib/db';
+import { yesterdayRange, toYYYYMMDD } from '../lib/time';
 import { DateTime } from 'luxon';
 
 async function getRows() {
