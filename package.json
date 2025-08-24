@@ -18,5 +18,10 @@
     "server-only": "^0.0.1",
     "tldts": "^6.1.32",
     "zod": "^3.23.8"
+  },
+   "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/react": "^18.2.66",
+    "@types/node": "^20.12.7"
   }
 }
