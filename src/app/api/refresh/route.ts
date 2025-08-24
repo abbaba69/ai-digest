@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { fetchAndStoreYesterday } from '@/lib/fetchFeeds';
+import { fetchAndStoreYesterday } from '../../../lib/fetchFeeds';
 
 export async function GET(req: NextRequest) {
   const token = req.nextUrl.searchParams.get('token');
